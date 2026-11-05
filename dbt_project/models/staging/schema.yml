@@ -1,0 +1,4 @@
+# TODO (día 3): describí cada modelo stg y sus columnas, y agregá los tests de la capa:
+# unique y not_null en cada clave primaria, relationships entre orders, customers, order_items
+# y products, y accepted_values en el status de orders.
+# Antes de elegir la severidad de cada test, leé "Tests que fallan" en docs/guia/dia-3.md.

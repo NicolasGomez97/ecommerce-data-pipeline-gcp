@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Los CSV van byte a byte iguales al dataset original (CRLF): su hash está en el MANIFEST
+*.csv -text
+*.png binary

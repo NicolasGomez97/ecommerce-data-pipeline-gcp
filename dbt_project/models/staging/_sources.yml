@@ -1,0 +1,4 @@
+# TODO (día 3): declará las 4 tablas de raw como source.
+# - Las escribe la ingesta (Python), no dbt: por eso son sources y no modelos.
+# - Agregales un test de frescura usando la columna _loaded_at.
+# Documentación: https://docs.getdbt.com/docs/build/sources

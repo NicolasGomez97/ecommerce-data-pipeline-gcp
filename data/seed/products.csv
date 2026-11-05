@@ -1,0 +1,81 @@
+product_id,name,category,price,cost,created_at
+1,Lámpara,Hogar,93.99,53.91,2025-07-13
+2,Almohada,Hogar,92.99,69.53,2025-10-17
+3,Set de sábanas,Hogar,17.99,8.78,2025-07-28
+4,Taza,Hogar,20.99,12.69,2025-06-05
+5,Cafetera,Hogar,90.99,66.93,2025-07-21
+6,Planta deco,Hogar,77.99,39.95,2025-03-28
+7,Cortina,Hogar,38.99,42.89,2025-09-16
+8,Alfombra,Hogar,43.99,21.02,2025-11-29
+9,Organizador,Hogar,45.99,29.41,2025-12-08
+10,Reloj de pared,Hogar,81.99,47.78,2025-04-04
+11,Auriculares,Tecnología,197.99,107.82,2025-07-07
+12,Cargador,Tecnología,101.99,72.76,2025-11-09
+13,Teclado,Tecnología,110.99,70.75,2025-11-01
+14,Mouse,Tecnología,162.99,99.75,2025-09-04
+15,Parlante,tecnología,140.99,100.32,2025-07-30
+16,Webcam,Tecnología,180.99,99.64,2025-08-27
+17,Cable USB,Tecnología,64.99,36.85,2025-07-11
+18,Soporte notebook,Tecnología,116.99,74.04,2025-06-01
+19,Power bank,Tecnología,163.99,108.40,2025-07-11
+20,Smartwatch,Tecnología,46.99,32.27,2025-03-17
+21,Pelota,Deportes,29.99,22.00,2025-04-24
+22,Mat de yoga,Deportes,77.99,49.99,2025-07-27
+23,Mancuernas,Deportes,10.99,6.54,2025-04-09
+24,Botella térmica,Deportes,38.99,21.12,2025-08-02
+25,Cuerda de saltar,DEPORTES,43.99,28.99,2025-08-05
+26,Guantes,Deportes,22.99,11.37,2025-09-01
+27,Mochila deportiva,Deportes,40.99,30.64,2025-03-14
+28,Banda elástica,Deportes,68.99,45.50,2025-11-07
+29,Gorra,Deportes,32.99,17.94,2025-08-23
+30,Medias,Deportes,55.99,33.62,2025-09-10
+31,Remera,Moda,108.99,54.75,2025-09-29
+32,Jean,Moda,50.99,28.31,2025-05-10
+33,Campera,Moda,45.99,21.58,2025-04-10
+34,Zapatillas,Moda,108.99,71.12,2025-03-22
+35,Buzo,MODA,59.99,29.16,2025-05-15
+36,Bufanda,Moda,61.99,40.70,2025-05-13
+37,Cinturón,Moda,50.99,35.37,2025-09-03
+38,Cartera,Moda,106.99,117.69,2025-10-18
+39,Lentes de sol,Moda,119.99,80.34,2025-09-04
+40,Camisa,Moda,87.99,51.94,2025-06-10
+41,Crema facial,Belleza,56.99,27.90,2025-09-16
+42,Shampoo,Belleza,20.99,11.07,2025-07-27
+43,Perfume,BELLEZA,21.99,16.37,2025-03-14
+44,Labial,belleza,65.99,36.26,2025-12-01
+45,Protector solar,BELLEZA,36.99,18.19,2025-09-29
+46,Esmalte,Belleza,48.99,34.05,2025-05-22
+47,Máscara,Belleza,20.99,10.19,2025-12-09
+48,Jabón,Belleza,35.99,17.91,2025-09-19
+49,Serum,Belleza,52.99,38.47,2025-12-01
+50,Kit de cepillos,Belleza,42.99,22.36,2025-05-31
+51,Puzzle,Juguetes,48.99,24.01,2025-10-24
+52,Bloques,juguetes,20.99,14.82,2025-05-11
+53,Muñeca,Juguetes,7.99,3.81,2025-05-23
+54,Auto a control,Juguetes,54.99,35.05,2025-11-04
+55,Juego de mesa,Juguetes,31.99,20.01,2025-11-28
+56,Peluche,Juguetes,14.99,10.85,2025-04-14
+57,Plastilina,Juguetes,29.99,17.08,2025-04-23
+58,Pelota saltarina,Juguetes,52.99,29.57,2025-10-30
+59,Set de arte,Juguetes,26.99,18.83,2025-03-30
+60,Dinosaurio,Juguetes,11.99,8.80,2025-03-03
+61,Cuaderno,Librería,16.99,8.53,2025-03-01
+62,Lapicera,Librería,8.99,5.50,2025-03-03
+63,Mochila escolar,Librería,19.99,11.83,2025-07-08
+64,Agenda,Librería,33.99,15.65,2025-03-20
+65,Resaltadores,Librería,7.99,5.93,2025-03-25
+66,Carpeta,Librería,26.99,15.59,2025-03-01
+67,Calculadora,Librería,8.99,5.14,2025-05-18
+68,Block de dibujo,Librería,30.99,19.22,2025-05-23
+69,Marcadores,Librería,28.99,13.99,2025-10-02
+70,Planner,Librería,17.99,19.79,2025-06-24
+71,Collar,Mascotas,58.99,64.89,2025-05-31
+72,Cama para perro,Mascotas,20.99,14.00,2025-05-07
+73,Rascador,Mascotas,76.99,54.79,2025-07-30
+74,Comedero,Mascotas ,36.99,20.31,2025-11-01
+75,Juguete mordillo,Mascotas,65.99,37.31,2025-08-03
+76,Correa,Mascotas,15.99,8.85,2025-11-20
+77,Arena para gatos,Mascotas,17.99,8.30,2025-06-02
+78,Transportadora,Mascotas,5.99,3.16,2025-08-11
+79,Snack,Mascotas,11.99,6.62,2025-06-28
+80,Cepillo,Mascotas,16.99,9.64,2025-07-28
