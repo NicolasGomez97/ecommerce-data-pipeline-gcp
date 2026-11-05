@@ -1,0 +1,19 @@
+[project]
+name = "ecommerce-data-pipeline-gcp"
+version = "0.1.0"
+description = "Pipeline ELT de e-commerce: API -> BigQuery -> dbt -> Streamlit"
+requires-python = ">=3.11,<3.13"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["dbt_project"]
+
+[tool.ruff.lint]
+# pycodestyle, pyflakes, isort, bugbear, pyupgrade, simplify
+select = ["E", "W", "F", "I", "B", "UP", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = [".", "ingestion"]
