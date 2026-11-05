@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Lint, tests y dbt parse
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+
+      - name: Instalar dependencias
+        run: pip install -r requirements-dev.txt
+
+      # dbt parse no se conecta a BigQuery: alcanza con el profile de ejemplo y un proyecto de relleno.
+      - name: Preparar profile de dbt
+        run: cp dbt_project/profiles.yml.example dbt_project/profiles.yml
+
+      - name: ruff, pytest y dbt parse
+        run: python run.py check
+        env:
+          GCP_PROJECT: ci-sin-conexion
+
+      - name: Dependencias con vulnerabilidades conocidas
+        run: pip-audit -r requirements.txt --progress-spinner off
