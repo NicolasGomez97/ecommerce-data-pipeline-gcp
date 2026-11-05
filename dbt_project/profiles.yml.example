@@ -1,0 +1,14 @@
+# Copiá este archivo como profiles.yml en esta misma carpeta (python run.py setup lo hace por vos).
+# profiles.yml está en el .gitignore: puede tener rutas a credenciales.
+proyecto_datos:
+  target: bq
+  outputs:
+    bq:
+      type: bigquery
+      method: "{{ env_var('BQ_METHOD', 'service-account') }}"
+      keyfile: "{{ env_var('GOOGLE_APPLICATION_CREDENTIALS', '') }}"
+      project: "{{ env_var('GCP_PROJECT') }}"
+      dataset: main
+      location: "{{ env_var('BQ_LOCATION', 'US') }}"
+      threads: 4
+      job_execution_timeout_seconds: 300

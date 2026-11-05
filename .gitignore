@@ -1,0 +1,32 @@
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Secretos: nunca al repo
+.env
+dbt_project/profiles.yml
+*credentials*.json
+*-key.json
+gcp-key.json
+/*.json
+
+# Artefactos locales que no van al repo
+*.duckdb
+*.duckdb.wal
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+logs/
+
+# Id anónimo que crea dbt en cada máquina
+dbt_project/.user.yml
+.user.yml
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

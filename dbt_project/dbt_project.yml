@@ -1,0 +1,25 @@
+name: proyecto_datos
+version: "1.0.0"
+profile: proyecto_datos
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+
+clean-targets: ["target", "dbt_packages"]
+
+# Cada capa vive en su propio dataset de BigQuery, con el nombre exacto.
+# La macro generate_schema_name evita que dbt les agregue el prefijo del target.
+models:
+  proyecto_datos:
+    staging:
+      +schema: stg
+      +materialized: view
+    intermediate:
+      +schema: int
+      +materialized: view
+    marts:
+      +schema: mart
+      +materialized: table
